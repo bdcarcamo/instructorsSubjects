@@ -1,0 +1,112 @@
+h1::before{
+  content: '←';
+  float: left;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-brand {
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.nav-link {
+  text-transform: capitalize;
+}
+
+.icons svg {
+  margin-right: 20px;;
+}
+
+.view {
+  margin-left: 7px;
+}
+
+.instructors{
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  white-space: wrap;
+}
+
+.instructors .card{
+  display: inline-block;
+  float: none;
+}
+
+.card {
+  min-width: 15rem;
+  height: 100%;
+}
+
+.card img{
+  height: 80px;
+  width: 80px;
+}
+
+.card .card-text{
+  font-size: 16px;
+}
+
+.card .card-text{
+  margin-top: -10px;
+  font-size: 12px;
+}
+
+.detail img {
+  margin-top: -10px;
+  margin-left: -3px;
+}
+
+.detail .users{
+  width: 30px;
+  height: 30px;
+}
+
+.detail .proyects{
+  width: 40px;
+  height: 40px;
+  margin-top: 0px;
+  border-radius: 5px;
+}
+
+.foot p{
+  display: inline;
+}
+
+.foot .web{
+  float: right;
+}
+
+.user-profile {
+  width: 60px;
+  width: 60px;
+  border-radius: 30px;
+  float: left;
+  margin-top: 30px;
+}
+
+.name-profile{
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.text-profile {
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.profile {
+  border-radius: 10px;
+}
+
+.space {
+  width: 350px;
+}
+
+.tall {
+  height: 285px;
+}
